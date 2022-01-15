@@ -1,7 +1,7 @@
 # Forum
 
 A Full Stack Application where different Users can add Question and other Users who knows the answer can respond with an Answer.
-Developed using MEAN Stack 
+Developed using MEAN Stack (Angular for UI, Node.js and express for backend and MongoDB as database)  
 
 # Development
 
