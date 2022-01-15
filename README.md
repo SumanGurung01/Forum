@@ -1,6 +1,7 @@
 # Forum
 
-An Application where different Users can add Question and other Users who knows the answer can respond with an Answer.
+A Full Stack Application where different Users can add Question and other Users who knows the answer can respond with an Answer.
+Developed using MEAN Stack 
 
 # Development
 
