@@ -1,0 +1,31 @@
+.heading{
+    padding: 7px 0px 7px 0px;
+    font-size: 30px;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+form{
+    width : 360px;
+    border-radius: 3px;
+    box-shadow: beige 5px 5px 5px;
+    padding : 10px;
+}
+
+button{
+    width:100%;
+    background-color: blueviolet;
+    color: white;
+}
+
+button:hover{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: blueviolet;
+}

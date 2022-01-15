@@ -1,0 +1,53 @@
+.body{
+    display: flex;
+    justify-content: center;
+}
+
+.allquestion{
+    display:flex;
+    background-color:rgb(211, 171, 248);
+    width: 900px;
+    padding: 10px;
+    border-radius: 3px;
+    margin:9px;
+    height : 50px;
+}
+
+.answer{
+    display: flex;
+    padding: 10px;
+    border-radius: 3px;
+    margin:9px;
+    height : 50px;
+    background-color: rgb(226, 226, 226);
+}
+
+.ans{
+    width:70%
+}
+
+.ansr{
+    width:30%;
+}
+
+.q{
+    width:70%;
+}
+
+.qnr{
+    width:20%;
+}
+
+.icon{
+    width:5%;
+    font-size: 20px;
+    color: blueviolet;
+}
+
+a{
+    color: blueviolet;
+}
+
+.fa:hover {
+    cursor: pointer;
+}

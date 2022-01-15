@@ -1,0 +1,13 @@
+.body{
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+}
+
+.btn{
+    background-color: blueviolet;
+    margin: 10px;
+}

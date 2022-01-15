@@ -1,0 +1,14 @@
+<br>
+<div class="body">
+
+    <form #userquestion='ngForm' (ngSubmit)="getQuestion(userquestion.value)">
+        Upload a Question
+        <br><br>
+        <textarea class="form-control" rows="3" name="que" ngModel></textarea>
+        <br>
+        <div class="submit" align="center">
+            <button type="submit" class="btn">Post</button>
+        </div>
+    </form>
+
+</div>

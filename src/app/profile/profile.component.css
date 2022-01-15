@@ -1,0 +1,26 @@
+.body{
+    display:flex;
+    justify-content: center;
+}
+
+.infocard{
+    width:360px;
+    box-shadow: rgb(216, 216, 216) 9px 9px 9px;
+}
+
+.heading{
+    border-radius: 7px 7px 0px 0px;
+    font-size: 25px;  
+    padding: 9px 0px 9px 9px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.field{
+    font-size: 21px;
+    padding: 9px 0px 9px 9px;
+}
+
+.fa{
+    margin-right: 20px;
+}

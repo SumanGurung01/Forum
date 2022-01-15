@@ -1,0 +1,15 @@
+<div class="body">
+
+    <form #useranswer='ngForm' (ngSubmit)="getAnswer(useranswer.value)">
+        Upload an Answer
+        <br>
+        {{question.question}}
+        <br><br>
+        <textarea class="form-control" rows="3" name="ans" ngModel></textarea>
+        <br>
+        <div class="submit" align="center">
+            <button type="submit" class="btn">Post</button>
+        </div>
+    </form>
+
+</div>

@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="heading" align="center">
+        <img src="./assets/logo.jpeg" width="90px">
+        <p>FORUM</p>
+        <p style="font-size:17px">Ask anything here</p>
+    </div>
+    
+    <div class="body">
+        <form #userdata="ngForm" (ngSubmit)="getValues(userdata.value)">
+            <h4 align="center">Login</h4>
+            <br>
+            <input type="text" class="form-control" placeholder="Email" name="email" ngModel required>
+            <br>
+            <input type="password" class="form-control" placeholder="Password" name="password" ngModel required>
+            <br>
+            <button type="button" class="btn" type="submit">Login</button>
+            <br>
+            <br>
+            <p align="center">New to Forum? <a routerLink="/createacc">Create Account</a></p>
+        </form>
+    </div>
+    
+    
+    
+</body>
+</html>
+
+

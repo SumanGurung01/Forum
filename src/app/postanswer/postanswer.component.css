@@ -1,0 +1,22 @@
+form{
+    width:500px;
+    background-color: whitesmoke;
+    box-shadow: rgb(207, 207, 207) 9px 9px 9px;
+    padding: 21px;
+    border-radius: 3px;
+}
+
+.body{
+    display:flex;
+    justify-content: center;
+}
+.btn{
+    width:50%;
+    color: blueviolet;
+    border: blueviolet solid 1px;
+}
+
+.btn:hover{
+    background-color: blueviolet;
+    color: white;
+}

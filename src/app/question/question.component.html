@@ -1,0 +1,28 @@
+<div class="body">
+    
+    <div class="main">
+        <div class="answerbox">
+            <router-outlet></router-outlet>                
+        </div> 
+
+        <div class="question" *ngFor='let que of allQuestion; let i = index'>
+
+            <div class="allquestion">
+                <div class="q" id="q{{i+1}}">{{que.question}}</div>
+                <div class="qnr" id="qnr{{i+1}}">{{que.questioner}}</div>
+                <div class="icon">
+                    <a routerLink="addanswer" id="{{i+1}}" (click)="addans($event)"><i class="fa fa-plus"></i></a>
+                </div>
+                <div class="icon">
+                    <a id="{{i+1}}" (click)="deleteque($event)"><i class="fa fa-trash"></i></a>
+                </div>
+            </div>
+            <div class="answer" *ngFor="let ans of que.answer">
+                <div class="ans">{{ans.ans}}</div>
+                <div class="ansr">{{ans.answerer}}</div>
+            </div>
+            <br>
+        </div>
+    </div>
+
+</div>

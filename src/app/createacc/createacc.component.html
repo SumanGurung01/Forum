@@ -1,0 +1,19 @@
+<div class="heading" align="center">
+    <img src="./assets/logo.jpeg" width="90px">
+    <p>FORUM</p>
+</div>
+
+<div class="body">
+    <form #userdata="ngForm" (ngSubmit)="getValues(userdata.value)">
+        <h4 align="center">Create Account</h4>
+        <br>
+        <input type="text" class="form-control" placeholder="Email" name="email" ngModel required>
+        <br>
+        <input type="text" class="form-control" placeholder="Username" name="username" ngModel required>
+        <br>
+        <input type="password" class="form-control" placeholder="Password" name="password" ngModel required>
+        <br>
+        <button type="button" class="btn" type="submit">Create Account</button>
+        <br>
+    </form>
+</div>

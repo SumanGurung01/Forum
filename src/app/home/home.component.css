@@ -1,0 +1,32 @@
+.nav{
+    background-color: black;
+    display: flex;
+    height:50px;
+    padding: 9px 0px 0px 5px;
+}
+
+.menu{
+    display:flex;
+}
+
+.fa{
+    color: white;
+    font-size: 30px;
+    margin: 0px 10px 0px 10px;
+}
+
+.fa:hover{
+    color: blueviolet;
+}
+
+button{
+    background-color: black;
+}
+
+li .fa{
+    margin:0px;
+    padding-right: 10px;
+    color: black;
+    font-size:17px;
+}
+

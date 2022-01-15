@@ -1,0 +1,18 @@
+<div class="nav">
+    <div class="menu">
+        <div class="user">
+            <i class="fa fa-user" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"></i>
+          
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" routerLink="profile"><i class="fa fa-user-circle" id="dropicon"></i>Profile Setting</a></li>
+            <li><a class="dropdown-item" routerLink='/login'><i class="fa fa-sign-out" id="dropicon"></i>Log Out</a></li>
+          </ul>
+        </div>
+        
+        <div class="room">
+              <i class="fa fa-home" routerLink="room"></i>
+        </div>
+    </div>
+</div>
+
+<router-outlet></router-outlet>
