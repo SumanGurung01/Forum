@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 var cors = require('cors');
 
-db = "mongodb+srv://forum:forum@forum.z24pj.mongodb.net/forum?retryWrites=true&w=majority"
+db = "mongodb+srv://<username>:<password>@forum.z24pj.mongodb.net/<databasename>?retryWrites=true&w=majority"
 
 mongoose.connect(db).then(()=>{
     console.log("Database Connected")
